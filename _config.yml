@@ -7,17 +7,17 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Johnathan Machler Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
-description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: Johnathan Machler
+headline: Engineer | Researcher | Nexialist
+description:  I am passionate about systems thinking and always strive to find holistic solutions where applicable. This passion dates back to childhood when I started with snap circuits, read vintage electronics manuals, and visited RadioShack on my days off. On Fridays, I visited my mentor, a chief engineer and inventor, who taught me the mentality and dedication of an engineer. He didn't see a separation between his work as a scientist and his faith.
+Disenfranchised with the modern world, I recently adopted a more ascetic lifestyle, purchasing only what I need when I need it. In December 2024, I converted to Orthodox Christianity and dedicated more of my life to it. I overcame many earthy and carnal temptations within myself.
+I am actively improving and preparing to launch several projects, part of my larger talent stack. In June 2024, I started Machlerlabs.com and Machler Labs LLC with the intention of reinventing how toys are made, adapting IDEO and MIT Media Lab research to product and app design. The vision is to find new ways to integrate AI into toys through electronics or handheld phones. Before starting this business, I worked for Raytheon Missile Systems, but it didn't work out for unknown reasons. This company can be seen as a reuse of high tech skills to the toy industry, which needs reinvigoration in the area of kids staring at glowing rectangles. Let's get kids off their phones or, if not, get them to use phones with their toys. Essentially I see myself going up against Mattel and the creators of Pokemon Go. What is seen now in the toy industry is full of bloat. I feel that the media study, be it toys or movies, is uninspired.
+With the spare time I have, I scour YouTube, the library, and other free resources for information on various disciplines. My knowledge ranges from Electrophysiology to word origin Etymology (to see the actual list of interests I have along with the markdown study notes see this link). I pride myself on being able to speak intelligently on almost any topic I desire. You can watch my podcasts here at this link. 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
@@ -25,36 +25,42 @@ profile_image: ./assets/images/profile-image/avatar.jpeg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
+resume-url: https://machler.xyz/resume/JmachlerResume-2-1.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
+  github: jmachl    # https://github.com/{your url slug} 
   stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
   instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
+  youtube: kd0moo           # https://youtube.com/@{your url slug} 
   discord:            # https://discord.com/users/{your url slug} 
   bluesky:           # https://bsky.app/profile/{your url slug} 
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
+
+  - category: Programming Languages
+    tools:
+    - C++/C
+    - MATLAB
+    - VHDL
+    - Python
+
   - category: 3D Modeling
     tools:
     - Onshape
     - Solidworks
-    - Creo
     - Fusion 360 (Autodesk)
     - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
+
+    
   - category: Prototyping
     tools:
     - SLA
@@ -65,26 +71,39 @@ skills:
     - PolyJet Printing
     - Vacuum Casting
     - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
+    - Arduino / Raspberry Pi, STM32
     - Breadboarding for circuit testing
-  - category: Design Standards / Practices
-    tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
+    
   - category: PCB Design
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
+    - Altium Designer 
     - KiCad
-  - category: Problem Solving / Risk Management
+    - EasyEDA
+    - Eagle
+    
+  - category: Modeling and Simulation
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - Simulink
+    - Cadence
+    - NGSPICE
+    - LtSpice
+    - Modelsim
+
+   - category: Documentation
+    tools:
+    - Microsoft Suites
+    - Juypter Notebooks
+    - Roam Research
+    - Obsidian
+
+   - category: Version Control
+    tools:
+    - Windchill 
+    - Git
+    - Jira /Confluence
+    - Subversion
+ 
+  
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
